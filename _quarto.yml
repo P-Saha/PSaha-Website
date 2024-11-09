@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Priyonto Saha"
+  navbar:
+    background: primary
+    search: false
+
+format:
+  html:
+    theme: Sketchy
+    css: styles.css
+    toc: true
+    
+about:
+  template: jolla
+  image: images/PSHeadshot.jpg
+  links:
+    - icon: file-earmark-arrow-down-fill
+      text: CV
+      href: mailto:priyonto.saha@mail.utoronto.ca
+    - icon: envelope-fill
+      text: Email
+      href: mailto:priyonto.saha@mail.utoronto.ca
+    - icon: github
+      text: GitHub
+      href: https://github.com/P-Saha
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/priyontosaha/
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.ca/citations?hl=en&authuser=3&user=z2V834IAAAAJ
+
+editor: visual
+
+execute:
+  freeze: auto # re-render only when source changes
