@@ -10,7 +10,7 @@ website:
 
 format:
   html:
-    theme: Sketchy
+    theme: Zephyr
     css: styles.css
     toc: true
     
