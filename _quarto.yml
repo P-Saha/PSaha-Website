@@ -4,9 +4,9 @@ project:
 
 website:
   title: "Priyonto Saha"
-  navbar:
-    background: primary
-    search: false
+  search: false
+    
+  
 
 format:
   html:
@@ -20,7 +20,7 @@ about:
   links:
     - icon: file-earmark-arrow-down-fill
       text: CV
-      href: mailto:priyonto.saha@mail.utoronto.ca
+      href: files/Priyonto_Saha_CV_Nov_2024.pdf
     - icon: envelope-fill
       text: Email
       href: mailto:priyonto.saha@mail.utoronto.ca
@@ -37,4 +37,6 @@ about:
 editor: visual
 
 execute:
-  freeze: auto # re-render only when source changes
+  freeze: auto
+  
+engine: knitr
