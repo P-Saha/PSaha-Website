@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  
+resources:
+  - styles.css
+  - files/PSaha-CV.pdf
+  - images/PSHeadshot.jpg
 
 website:
   title: "Priyonto Saha"
